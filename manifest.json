@@ -7,15 +7,13 @@
 
   "icons": {
     "16": "favicon_io/favicon-16x16.png",
-    "32": "favicon_io/favicon-32x32.png",
-    "192": "favicon_io/favicon-192x192.png"
+    "32": "favicon_io/favicon-32x32.png"
   },
 
   "action": {
     "default_popup": "allPokemons.html",
     "default_icon": {
-      "16": "favicon_io/favicon-16x16.png",
-      "192": "favicon_io/favicon-192x192.png"
+      "16": "favicon_io/favicon-16x16.png"
     }
   },
 
