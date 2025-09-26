@@ -1,35 +1,12 @@
 {
-  "manifest_version": 3,
-  "name": "PokeTab",
-  "short_name": "PokeTab",
-  "description": "A fun Pokedex Chrome Extension showing Pokémon, weather, time, and motivational quotes!",
-  "version": "1.0.0",
-
-  "icons": {
-    "16": "favicon-16x16.png",
-    "32": "favicon-32x32.png"
-  },
-
-  "action": {
-    "default_popup": "index.html",
-    "default_icon": {
-      "16": "favicon-16x16.png",
-      "32": "favicon-32x32.png"
+    "manifest_version": 3,
+    "name": "Pokedex Dashboard",
+    "version": "1.0.0",
+    "description": "Just for practicing async JS",
+    "action": {
+        "default_icon": "./favicon-16x16.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
     }
-  },
-  "background": {
-    "service_worker": "./index.js"
-  },
-
-  "permissions": [
-    "activeTab"
-  ],
-
-  "host_permissions": [
-    "https://pokeapi.co/*"
-  ],
-
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'"
-  }
 }
