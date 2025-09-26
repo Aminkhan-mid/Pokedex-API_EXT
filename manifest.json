@@ -17,6 +17,9 @@
       "32": "favicon-32x32.png"
     }
   },
+  "background": {
+    "service_worker": "./index.js"
+  },
 
   "permissions": [
     "activeTab"
