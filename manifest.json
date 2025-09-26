@@ -6,18 +6,18 @@
   "version": "1.0.0",
 
   "icons": {
-    "16": "favicon_io/icons/favicon-16.png",
-    "32": "favicon_io/icons/favicon-32.png",
-    "48": "favicon_io/icons/favicon-48.png",
-    "128": "favicon_io/icons/favicon-128.png"
+    "16": "favicon_io/favicon-16x16.png",
+    "32": "favicon_io/favicon-32x32.png",
+    "48": "favicon_io/favicon-48x48.png",
+    "128": "favicon_io/favicon-128x128.png"
   },
 
   "action": {
     "default_popup": "allPokemons.html",
     "default_icon": {
-      "16": "favicon_io/icons/favicon-16.png",
-      "48": "favicon_io/icons/favicon-48.png",
-      "128": "favicon_io/icons/favicon-128.png"
+      "16": "favicon_io/favicon-16x16.png",
+      "48": "favicon_io/favicon-48x48.png",
+      "128": "favicon_io/favicon-128x128.png"
     }
   },
 
@@ -26,14 +26,11 @@
   },
 
   "permissions": [
-    "storage",
-    "geolocation",
     "activeTab"
   ],
 
   "host_permissions": [
-    "https://pokeapi.co/*",
-    "https://api.openweathermap.org/*"
+    "https://pokeapi.co/*"
   ],
 
   "content_security_policy": {
