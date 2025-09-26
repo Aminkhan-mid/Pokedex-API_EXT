@@ -17,10 +17,6 @@
     }
   },
 
-  "background": {
-    "service_worker": "allPokemons.js"
-  },
-
   "permissions": [
     "activeTab"
   ],
